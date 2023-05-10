@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Concert One', cursive;
+    font-family: 'Playfair Display', serif;
+    background-image: url('background.jpg');
+}
+
+h1{
+    color:rgb(52, 52, 52);
+    background-color:cornsilk;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration:7s;
+    margin-top:146px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    50%{box-shadow: 5px 5px 30px rgb(132, 10, 255);}
+    100%{box-shadow: 5px 5px 30px rgb(189, 3, 127);}
+}
+
+p{
+    padding-top:10px;
+    font-size:25px;
+    color:rgb(107, 20, 37)
+}
